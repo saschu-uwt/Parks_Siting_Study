@@ -110,12 +110,48 @@
             touch-action: unset;
         }
 
+        .center {
+          margin-top: 5vh;
+          position: absolute;
+          left: 50%;
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
+
+        .button {
+          display: flex;
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+        }
+
+        .button1 {
+          background-color: #a9a9a9;
+          color: black;
+          border: 2px solid #808080;
+        }
+
+        .button1:hover {
+          background-color: #808080;
+          color: white;
+        }
+
     </style>
 </head>
 <body>
 
   <div id="map"></div>
   <div id="story"></div>
+  <div class="center">
+    <a href="https://saschu-uwt.github.io/portfolio/"><button class="button button1">Back to Portfolio</button></a>
+  </div>
   <script src="./config.js"></script>
   <script>
     var layerTypes = {
