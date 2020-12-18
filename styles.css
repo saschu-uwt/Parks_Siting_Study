@@ -107,6 +107,10 @@ a, a:hover, a:visited {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  margin-left:4em;
+  margin-right:4em;
+  margin-top:8px;
+  margin-bottom:10em;
 }
 
 /* Style the links inside the navigation bar */
