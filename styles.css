@@ -20,7 +20,7 @@ a, a:hover, a:visited {
 }
 #header {
     margin: auto;
-    width: 100vw;
+    width: 90vw;
     padding-bottom: 1vh;
 }
 #header h1, #header h2 {
