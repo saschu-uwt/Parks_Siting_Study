@@ -32,7 +32,8 @@ a, a:hover, a:visited {
     margin: 5vw;
 }
 #footer {
-    width: 100vw;
+    width: 90vw;
+    margin:auto;
     min-height: 5vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
