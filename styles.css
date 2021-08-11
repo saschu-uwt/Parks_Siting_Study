@@ -68,10 +68,10 @@ a, a:hover, a:visited {
 }
 .light {
     color: #444;
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 .dark {
-    color: #fafafa;
+    color: #ffffff;
     background-color: #444;
 }
 .step {
